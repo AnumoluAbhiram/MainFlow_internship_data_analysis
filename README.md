@@ -35,6 +35,37 @@ my_dict = {'a': 1, 'b': 2, 'c': 3}
 These data structures are fundamental in Python and are widely used for various programming tasks due to their flexibility and efficiency.
 
 
+Task-2
 
+This task involves using the Pandas library to manipulate data.
+Responsibility:
+Load a CSV file into a Pandas DataFrame. Perform operations like filtering data based on conditions, handling missing values, and calculating summary
+statistics.
 
+process:
+step-1
+Loading the CSV File
+Import necessary libraries (e.g., Pandas).
+Load the CSV file into a DataFrame using pd.read_csv().
+Display the first few rows of the DataFrame using df.head() to ensure it loaded correctly.
 
+step-2
+Filtering Data
+Explain the need for filtering data based on conditions.
+Provide examples of filtering operations:
+Filter rows based on column values.
+Filter rows using multiple conditions.
+
+step-3
+Handling Missing Values
+Discuss the importance of handling missing data.
+Methods for handling missing values:
+Identifying missing values using df.isnull() and df.isna().
+Dropping rows or columns with missing values using df.dropna().
+Filling missing values using df.fillna().
+
+step-4
+Calculating Summary Statistics
+Importance of summary statistics in understanding data.
+Calculating basic statistics: mean, median, mode, standard deviation, etc.
+Using df.describe() for an overview of summary statistics.
